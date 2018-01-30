@@ -1,0 +1,137 @@
+
+=> Method name: readPersonList()
+=> Method number: 1
+=> Parameters: -
+
+	Person in DB before client: 0
+
+=> Method name: createPerson()
+=> Method number: 4
+=> Parameters: random generated person
+
+	Person ID: 1
+	Jhon1 - Doe1
+
+
+=> Method name: createPerson()
+=> Method number: 4
+=> Parameters: random generated person
+
+	Person ID: 1
+	Jhon1 - Doe1
+
+
+=> Method name: readPersonList()
+=> Method number: 1
+=> Parameters: -
+
+	Person in DB: 2
+
+=> Method name: readPerson()
+=> Method number: 2
+=> Parameters: the ID of the first person
+
+	Person ID: 1
+	Jhon1 - Doe1
+
+
+=> Method name: updatePerson()
+=> Method number: 3
+=> Parameters: the first person
+
+	Person ID: 1
+	Jhon1 - ModifiedLastname
+
+
+=> Method name: savePersonPreference()
+=> Method number: 9
+=> Parameters: person1 ID; a random generated activity
+
+
+=> Method name: savePersonPreference()
+=> Method number: 9
+=> Parameters: person1 ID; a random generated activity
+
+
+=> Method name: savePersonPreference()
+=> Method number: 9
+=> Parameters: person2 ID; a random generated activity
+
+
+=> Method name: readPreferences()
+=> Method number: 7
+=> Parameters: -
+
+	Activity ID: 3
+	Activity9 - Description for client created activity
+	Type: Type9 - 10/10
+
+	Activity ID: 4
+	Activity10 - Description for client created activity
+	Type: Type10 - 1/10
+
+	Activity ID: 5
+	Activity9 - Description for client created activity
+	Type: Type9 - 10/10
+
+
+=> Method name: readPersonPreferences()
+=> Method number: 6
+=> Parameters: person1 ID; type 'Type9'
+
+	Activity ID: 3
+	Activity9 - Description for client created activity
+	Type: Type9 - 10/10
+
+
+=> Method name: readPersonPreference()
+=> Method number: 8
+=> Parameters: person1 ID; ID of the first activity
+
+	Activity ID: 4
+	Activity10 - Description for client created activity
+	Type: Type10 - 1/10
+
+
+=> Method name: updatePersonPreference()
+=> Method number: 10
+=> Parameters: person1 ID; the first activity modified
+
+	Activity ID: 4
+	Activity10 - Activity modified by client
+	Type: Type10 - 1/10
+
+
+=> Method name: evaluatePersonPreference()
+=> Method number: 11
+=> Parameters: person1 ID; ID of the first activity; preference value 5
+
+	Activity ID: 4
+	Activity10 - Activity modified by client
+	Type: Type10 - 5/10
+
+
+=> Method name: getBestPersonPreferences()
+=> Method number: 12
+=> Parameters: person1 ID
+
+	Activity ID: 3
+	Activity9 - Description for client created activity
+	Type: Type9 - 10/10
+
+
+=> Method name: deletePerson()
+=> Method number: 5
+=> Parameters: person1 ID
+
+
+=> Method name: deletePerson()
+=> Method number: 5
+=> Parameters: person2 ID
+
+
+=> Method name: readPersonList()
+=> Method number: 1
+=> Parameters: -
+
+	Person in DB after client: 0
